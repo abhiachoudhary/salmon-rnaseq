@@ -21,7 +21,7 @@ SALMON_COMMAND = [
     "salmon",
     "alevin",
     "--index",
-    "/opt/gencode.v35.intron-exon.sidx",
+    "~/software/refdata-gex-GRCh38-GENCODE39/fasta/salmon_index_way1",
     "--libType",
     "A",
     "--output",
@@ -29,7 +29,7 @@ SALMON_COMMAND = [
     "--dumpMtx",
     "{salmon_option}",
     "--tgMap",
-    "/opt/gencode.v35.annotation.expanded.tx2gene.tsv",
+    "~/software/refdata-gex-GRCh38-GENCODE39/genes/tx2gene.tsv",
     "-p",
     "{threads}",
 ]
